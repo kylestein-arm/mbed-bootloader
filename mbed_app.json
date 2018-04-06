@@ -50,7 +50,11 @@
         "flash-size": {
             "help": "Total size of internal flash. Only used in this config to help the definition of other macros.",
             "value": null
-        }
+        },
+        "spi-cs": "D10",
+        "spi-mosi": "D11",
+        "spi-miso": "D12",
+        "spi-clk": "D13"
     },
     "target_overrides": {
         "*": {
